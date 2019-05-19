@@ -1,3 +1,5 @@
 In this section of the code, we try to classify the paintings of 30 artists using fastai vision. At the same time, in order to improve the accuracy, we use the following methods to enrich the data of the training set: flip, rotate, contrast adjustment. We used a confusion matrix to represent the experimental results.
 
 The final result of the experiment shows that the val-loss approximately equals to train-loss, showing that the training model has no overfitting. The accuracy of the test set reached more than 81%, which is higher than the VGG16-based model. We found that the paintings of the High Renaissance School were easy to classify. Through the display of the pictures, it was found that the genre was mostly portraits of religion and the court, and it was difficult for human experts to distinguish.
+<p align="center"><img src="https://github.com/klmyyaqihu/identify-artists-from-their-works/raw/master/figures/fastai_30class_25epoch_1.png" height="48%" width="48%"> </p >
+<p align="center"><img src="https://github.com/klmyyaqihu/identify-artists-from-their-works/raw/master/figures/fastai_30class_25epoch_2.png" height="48%" width="100%"> </p >
